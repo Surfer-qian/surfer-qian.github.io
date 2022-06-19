@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Surfer&#39;s Blog</title>
+  
+  
+  <link href="https://surfer-qian.top/atom.xml" rel="self"/>
+  
+  <link href="https://surfer-qian.top/"/>
+  <updated>2022-02-05T09:20:24.135Z</updated>
+  <id>https://surfer-qian.top/</id>
+  
+  <author>
+    <name>Surfer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://surfer-qian.top/blog/hello-world/"/>
+    <id>https://surfer-qian.top/blog/hello-world/</id>
+    <published>2022-06-19T08:26:05.354Z</published>
+    <updated>2022-02-05T09:20:24.135Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot; Hello World&quot;&gt;&lt;/a&gt;&lt;center&gt; Hello World&lt;/h1&gt;&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>为Hexo设置阅读全文功能</title>
+    <link href="https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/"/>
+    <id>https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/</id>
+    <published>2022-02-06T07:09:22.000Z</published>
+    <updated>2022-02-06T07:09:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为 Hexo 文章设置一个链接 “阅读全文” 来进入文章的详情页，同时只显示前言部分——就是你现在看到的样子。 &lt;br&gt;&lt;br&gt;点击阅读全文看看是如何实现的&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+    <category term="next" scheme="https://surfer-qian.top/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Github博客添加域名</title>
+    <link href="https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/"/>
+    <id>https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/</id>
+    <published>2022-02-05T08:20:13.000Z</published>
+    <updated>2022-02-05T08:20:13.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h1&gt;&lt;p&gt;推荐在 &lt;a href=&quot;https://www.namesilo.com/&quot;&gt;NameSilo&lt;/a&gt; 购买域名，Namesilo 是 ICANN 认证的域名注册商之一，安全保护到位，域名价格便宜，支持支付宝、Paypal、信用卡等多种方式付款，性价比很高。&lt;/p&gt;
+&lt;h2 id=&quot;优惠码&quot;&gt;&lt;a href=&quot;#优惠码&quot; class=&quot;headerlink&quot; title=&quot;优惠码&quot;&gt;&lt;/a&gt;优惠码&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选好要购买的域名后，输入优惠码 &lt;code&gt;toptop1&lt;/code&gt; 即可优惠 &lt;code&gt;$1&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/05/Hmbp9K.png&quot; alt=&quot;使用优惠码&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+    <category term="域名" scheme="https://surfer-qian.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建Hexo+Github博客</title>
+    <link href="https://surfer-qian.top/blog/%E6%90%AD%E5%BB%BAHexo+Github%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://surfer-qian.top/blog/%E6%90%AD%E5%BB%BAHexo+Github%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-01-30T13:35:00.000Z</published>
+    <updated>2022-02-05T06:50:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;此博客位于 Github Pages ，利用 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt; 博客框架，采用 &lt;a href=&quot;https://github.com/next-theme/hexo-theme-next&quot;&gt;Next&lt;/a&gt; 主题，以下一切步骤皆建立在此基础上&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;准备：&quot;&gt;&lt;a href=&quot;#准备：&quot; class=&quot;headerlink&quot; title=&quot;准备：&quot;&gt;&lt;/a&gt;准备：&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;环境搭建： &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git&lt;/a&gt; 和 &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一个 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; 账户&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p1&quot;&gt;连接 Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p2&quot;&gt;创建 Github Pages 仓库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p3&quot;&gt;安装 Hexo 博客框架&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p4&quot;&gt;网站配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p5&quot;&gt;主题配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p6&quot;&gt;新建文章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p7&quot;&gt;本地预览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p8&quot;&gt;部署 Hexo 到 Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
+    
+    <category term="next" scheme="https://surfer-qian.top/tags/next/"/>
+    
+  </entry>
+  
+</feed>
