@@ -6,7 +6,7 @@
   <link href="https://surfer-qian.top/atom.xml" rel="self"/>
   
   <link href="https://surfer-qian.top/"/>
-  <updated>2022-07-12T08:06:35.520Z</updated>
+  <updated>2022-07-12T08:10:00.000Z</updated>
   <id>https://surfer-qian.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>用ADB来管理你的Android</title>
-    <link href="https://surfer-qian.top/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/%E7%94%A8ADB%E6%9D%A5%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84Android/"/>
-    <id>https://surfer-qian.top/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/%E7%94%A8ADB%E6%9D%A5%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84Android/</id>
-    <published>2022-07-12T08:12:49.794Z</published>
-    <updated>2022-07-12T08:06:35.520Z</updated>
+    <title>搭建Hexo+Github博客</title>
+    <link href="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/"/>
+    <id>https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/</id>
+    <published>2022-07-12T08:10:00.000Z</published>
+    <updated>2022-07-12T08:10:00.000Z</updated>
     
     
       
@@ -34,8 +34,12 @@
     
     
     
-    <category term="/小书匠/日记/2022-07" scheme="https://surfer-qian.top/categories/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/"/>
+    <category term="Android" scheme="https://surfer-qian.top/categories/Android/"/>
     
+    
+    <category term="ADB" scheme="https://surfer-qian.top/tags/ADB/"/>
+    
+    <category term="Android" scheme="https://surfer-qian.top/tags/Android/"/>
     
   </entry>
   
