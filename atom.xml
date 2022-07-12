@@ -6,7 +6,7 @@
   <link href="https://surfer-qian.top/atom.xml" rel="self"/>
   
   <link href="https://surfer-qian.top/"/>
-  <updated>2022-02-05T09:20:24.135Z</updated>
+  <updated>2022-07-12T08:06:35.520Z</updated>
   <id>https://surfer-qian.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用ADB来管理你的Android</title>
+    <link href="https://surfer-qian.top/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/%E7%94%A8ADB%E6%9D%A5%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84Android/"/>
+    <id>https://surfer-qian.top/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/%E7%94%A8ADB%E6%9D%A5%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84Android/</id>
+    <published>2022-07-12T08:12:49.794Z</published>
+    <updated>2022-07-12T08:06:35.520Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是ADB？&quot;&gt;&lt;a href=&quot;#什么是ADB？&quot; class=&quot;headerlink&quot; title=&quot;什么是ADB？&quot;&gt;&lt;/a&gt;什么是ADB？&lt;/h1&gt;&lt;p&gt;ADB 全称 Android Debug Bridge （Android 调试桥），是一个</summary>
+        
+      
+    
+    
+    
+    <category term="/小书匠/日记/2022-07" scheme="https://surfer-qian.top/categories/%E5%B0%8F%E4%B9%A6%E5%8C%A0-%E6%97%A5%E8%AE%B0-2022-07/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
