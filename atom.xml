@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>搭建Hexo+Github博客</title>
+    <title>利用 ADB 管理你的 Android</title>
     <link href="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/"/>
     <id>https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/</id>
     <published>2022-07-12T08:10:00.000Z</published>
@@ -28,7 +28,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;什么是ADB？&quot;&gt;&lt;a href=&quot;#什么是ADB？&quot; class=&quot;headerlink&quot; title=&quot;什么是ADB？&quot;&gt;&lt;/a&gt;什么是ADB？&lt;/h1&gt;&lt;p&gt;ADB 全称 Android Debug Bridge （Android 调试桥），是一个</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -40,29 +40,6 @@
     <category term="ADB" scheme="https://surfer-qian.top/tags/ADB/"/>
     
     <category term="Android" scheme="https://surfer-qian.top/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://surfer-qian.top/blog/hello-world/"/>
-    <id>https://surfer-qian.top/blog/hello-world/</id>
-    <published>2022-06-19T08:26:05.354Z</published>
-    <updated>2022-02-05T09:20:24.135Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot; Hello World&quot;&gt;&lt;/a&gt;&lt;center&gt; Hello World&lt;/h1&gt;&lt;h1</summary>
-        
-      
-    
-    
-    
-    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
-    
     
   </entry>
   
@@ -99,8 +76,9 @@
     
     <summary type="html">&lt;h1 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h1&gt;&lt;p&gt;推荐在 &lt;a href=&quot;https://www.namesilo.com/&quot;&gt;NameSilo&lt;/a&gt; 购买域名，Namesilo 是 ICANN 认证的域名注册商之一，安全保护到位，域名价格便宜，支持支付宝、Paypal、信用卡等多种方式付款，性价比很高。&lt;/p&gt;
 &lt;h2 id=&quot;优惠码&quot;&gt;&lt;a href=&quot;#优惠码&quot; class=&quot;headerlink&quot; title=&quot;优惠码&quot;&gt;&lt;/a&gt;优惠码&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;选好要购买的域名后，输入优惠码 &lt;code&gt;toptop1&lt;/code&gt; 即可优惠 &lt;code&gt;$1&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://s4.ax1x.com/2022/02/05/Hmbp9K.png&quot; alt=&quot;使用优惠码&quot;&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+&lt;p&gt;选好要购买的域名后，输入优惠码 &lt;code&gt;toptop1&lt;/code&gt; 即可优惠 &lt;code&gt;$1&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/Hmbp9K.png&quot; alt=&quot;使用优惠码&quot;&gt;&lt;/p&gt;</summary>
     
     
     
