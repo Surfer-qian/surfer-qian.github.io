@@ -60,7 +60,7 @@
   </entry>
   <entry>
     <title>修复&quot;无法更新Snap Store&quot;</title>
-    <url>/Ubuntu/%E4%BF%AE%E5%A4%8D%22%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0Snap%20Store%22/</url>
+    <url>/Ubuntu/%E4%BF%AE%E5%A4%8D%E6%9B%B4%E6%96%B0Snap%20Store%E6%97%B6%E5%87%BA%E9%94%99/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近总是弹出更新提示,如图所示<img src="https://file.surfer-qian.top/img/2022-09-09_19-26-10.png"></p>
 <p>然后转到 Ubuntu Software 软件商店更新出错，如图所示<img src="https://file.surfer-qian.top/img/2022-09-09_19-12-47.png"></p>
 <blockquote>
