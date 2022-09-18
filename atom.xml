@@ -24,13 +24,7 @@
     <updated>2022-09-16T15:21:59.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.discogs.com/ic84bT0V-7H3hlfwJW2x7i8p1-F9XIQkfpQxHOKj4xM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDYz/MTQ1LTE0OTA5ODA5/NDMtODEyOS5qcGVn.jpeg&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -47,13 +41,11 @@
     <updated>2022-09-09T11:24:28.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;最近总是弹出更新提示,如图所示&lt;img src=&quot;https://file.surfer-qian.top/img/2022-09-09_19-26-10.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后转到 Ubuntu Software 软件商店更新出错，如图所示&lt;img src=&quot;https://file.surfer-qian.top/img/2022-09-09_19-12-47.png&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;意思是 snap-store 已经在运行，无法更新&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -74,13 +66,7 @@
     <updated>2022-09-09T07:10:32.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;什么是-Snap&quot;&gt;&lt;a href=&quot;#什么是-Snap&quot; class=&quot;headerlink&quot; title=&quot;什么是 Snap&quot;&gt;&lt;/a&gt;什么是 Snap&lt;/h1&gt;&lt;p&gt;Snap 是一种软件包管理方式，它类似于一个拥有应用程序所有的文件和库的容器，各个应用程序之间完全独立，&lt;a href=&quot;https://cn.ubuntu.com/blog/what-is-snap-application&quot;&gt;ubuntu.cn&lt;/a&gt; 中是这么介绍的：&lt;code&gt;每个snap默认都被严格限制（confined），即限制系统权限和资源访问。&lt;/code&gt;&lt;/p&gt;</summary>
     
     
     
@@ -101,13 +87,10 @@
     <updated>2022-07-12T08:10:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;什么是ADB？&quot;&gt;&lt;a href=&quot;#什么是ADB？&quot; class=&quot;headerlink&quot; title=&quot;什么是ADB？&quot;&gt;&lt;/a&gt;什么是ADB？&lt;/h1&gt;&lt;p&gt;ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     

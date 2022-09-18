@@ -22,12 +22,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"surfer-qian.top","root":"/","images":"/images","scheme":"Gemini","darkmode":"auto","version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="什么是ADB？ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制  举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载  第一次使用ADB下载 ADB首先我们要去 Goo">
+    <meta name="description" content="什么是ADB？ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制  举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用 ADB 管理你的 Android">
 <meta property="og:url" content="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/index.html">
 <meta property="og:site_name" content="Surfer&#39;s Blog">
-<meta property="og:description" content="什么是ADB？ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制  举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载  第一次使用ADB下载 ADB首先我们要去 Goo">
+<meta property="og:description" content="什么是ADB？ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制  举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://file.surfer-qian.top/img/Hu7Aa8.png">
 <meta property="og:image" content="https://file.surfer-qian.top/img/Hu7ya0.png">
@@ -136,6 +136,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Surfer"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">Surfer</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -176,6 +178,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -196,7 +199,7 @@
     <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Surfer">
     </span>
 
@@ -263,6 +266,8 @@
 <blockquote>
 <p>举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载</p>
 </blockquote>
+<span id="more"></span>
+
 <h1 id="第一次使用ADB"><a href="#第一次使用ADB" class="headerlink" title="第一次使用ADB"></a>第一次使用ADB</h1><h2 id="下载-ADB"><a href="#下载-ADB" class="headerlink" title="下载 ADB"></a>下载 ADB</h2><p>首先我们要去 <a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn">Google Developers</a>  ,点击 <strong>下载适用于 Windows 的 SDK Platform-Tools</strong><br>下载后解压并打开文件夹，按住 <strong>shift</strong> 的同时在文件夹空白处右键，选择在终端中打开<img src="https://file.surfer-qian.top/img/Hu7Aa8.png" alt="在终端中打开"></p>
 <h2 id="连接手机"><a href="#连接手机" class="headerlink" title="连接手机"></a>连接手机</h2><ol>
 <li><p>打开手机设置—关于手机—连续点击版本号直到提示已处于开发者模式。进入<strong>开发者选项</strong>后打开 <strong>USB 调试</strong> 选项，当手机使用USB接口连接电脑时弹出提示，选择“一律允许该计算机调试”或者“仅此一次允许该计算机调试”即可</p>
@@ -283,7 +288,7 @@
 
     <footer class="post-footer"><div>
     
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-bookmark"></i>再接再厉-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-bookmark"></i>感谢阅读-------------</div>
     
 </div>
           
@@ -363,7 +368,7 @@
   </span>
 </div><div>
 <!--添加网站运行时间-->
-<span>小破站已经在风雨中度过了</span>
+<span>小站已经在风雨中度过了</span>
 <span id="timeDate">载入天数...</span>
 <span id="times">载入时分秒...</span>
 <script>

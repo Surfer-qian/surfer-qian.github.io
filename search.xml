@@ -3,8 +3,10 @@
   <entry>
     <title>Beyond《Best Collection》SACD分享</title>
     <url>/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="专辑信息"><a href="#专辑信息" class="headerlink" title="专辑信息"></a>专辑信息</h1><p>专辑名称：Best Collection SACD <br><br>专辑艺人：Beyond <br><br>出品公司:  华纳唱片 <br><br>发行地区：香港 <br><br>专辑语言:  粵语 <br><br>采样率：DSD 2.8224 MHz <br><br>比特率：5645kbps <br><br>声道：2 <br><br>采样比特：24bits <br><br>编码：DSD64 <br><br>Discogs 代码：<a href="https://www.discogs.com/release/10063145-Beyond-SACD-Best-Collection">r10063145</a></p>
-<p><img src="https://i.discogs.com/ic84bT0V-7H3hlfwJW2x7i8p1-F9XIQkfpQxHOKj4xM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDYz/MTQ1LTE0OTA5ODA5/NDMtODEyOS5qcGVn.jpeg"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://i.discogs.com/ic84bT0V-7H3hlfwJW2x7i8p1-F9XIQkfpQxHOKj4xM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDYz/MTQ1LTE0OTA5ODA5/NDMtODEyOS5qcGVn.jpeg"></p>
+<span id="more"></span>
+
+<h1 id="专辑信息"><a href="#专辑信息" class="headerlink" title="专辑信息"></a>专辑信息</h1><p>专辑名称：Best Collection SACD <br><br>专辑艺人：Beyond <br><br>出品公司:  华纳唱片 <br><br>发行地区：香港 <br><br>专辑语言:  粵语 <br><br>采样率：DSD 2.8224 MHz <br><br>比特率：5645kbps <br><br>声道：2 <br><br>采样比特：24bits <br><br>编码：DSD64 <br><br>Discogs 代码：<a href="https://www.discogs.com/release/10063145-Beyond-SACD-Best-Collection">r10063145</a></p>
 <h1 id="曲目"><a href="#曲目" class="headerlink" title="曲目"></a>曲目</h1><ol>
 <li>和平与爱</li>
 <li>海阔天空</li>
@@ -25,7 +27,7 @@
 </ol>
 <h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p><a href="https://file.surfer-qian.top/file/Best%20Collection.zip">点此下载</a></p>
 <blockquote>
-<p> 鼠标悬停此处查看 <a herf=# title="BED444B3C9C2F5DF1EE42C279ED678B2E26565F38D0E3C26FAD5BC7691748D99">SHA256</a></p>
+<p> 鼠标悬停此处查看 <a herf=# title="E192F257FA94BD9D4F3009A75886A13DF76789B7322A394921F70B5C4FD3A026">SHA256</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -98,6 +100,8 @@
 <blockquote>
 <p>意思是 snap-store 已经在运行，无法更新</p>
 </blockquote>
+<span id="more"></span>
+
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>终止 snap-store 进程后更新</p>
 <p>在终端执行：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">killall snap-store</span><br></pre></td></tr></table></figure>
@@ -124,6 +128,8 @@
 <blockquote>
 <p>举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载</p>
 </blockquote>
+<span id="more"></span>
+
 <h1 id="第一次使用ADB"><a href="#第一次使用ADB" class="headerlink" title="第一次使用ADB"></a>第一次使用ADB</h1><h2 id="下载-ADB"><a href="#下载-ADB" class="headerlink" title="下载 ADB"></a>下载 ADB</h2><p>首先我们要去 <a href="https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn">Google Developers</a>  ,点击 <strong>下载适用于 Windows 的 SDK Platform-Tools</strong><br>下载后解压并打开文件夹，按住 <strong>shift</strong> 的同时在文件夹空白处右键，选择在终端中打开<img src="https://file.surfer-qian.top/img/Hu7Aa8.png" alt="在终端中打开"></p>
 <h2 id="连接手机"><a href="#连接手机" class="headerlink" title="连接手机"></a>连接手机</h2><ol>
 <li><p>打开手机设置—关于手机—连续点击版本号直到提示已处于开发者模式。进入<strong>开发者选项</strong>后打开 <strong>USB 调试</strong> 选项，当手机使用USB接口连接电脑时弹出提示，选择“一律允许该计算机调试”或者“仅此一次允许该计算机调试”即可</p>
@@ -148,6 +154,8 @@
     <title>在Ubuntu 22.04中安装非snap版Firefox</title>
     <url>/Ubuntu/%E5%9C%A8Ubuntu%2022.04%E4%B8%AD%E5%AE%89%E8%A3%85%E9%9D%9Esnap%E7%89%88Firefox/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="什么是-Snap"><a href="#什么是-Snap" class="headerlink" title="什么是 Snap"></a>什么是 Snap</h1><p>Snap 是一种软件包管理方式，它类似于一个拥有应用程序所有的文件和库的容器，各个应用程序之间完全独立，<a href="https://cn.ubuntu.com/blog/what-is-snap-application">ubuntu.cn</a> 中是这么介绍的：<code>每个snap默认都被严格限制（confined），即限制系统权限和资源访问。</code></p>
+<span id="more"></span>
+
 <p>优点是软件包本身包含了程序运行的所有依赖，不必担心安装完软件后出现缺少依赖项的问题</p>
 <p>缺点是由于封装了所有依赖，导致程序在打开的时候会消耗大量的时间，这对于我这块用移动机械硬盘来装的Ubuntu尤其吃力。并且 Snap 的软件商店 <a href="https://snapcraft.io/">Snapcraft</a> 是个私有的软件商店，并没有国内镜像或反代理加速可用，所以下载速度较慢</p>
 <p>安装 Snap 可以用以下方法</p>

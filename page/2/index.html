@@ -125,6 +125,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Surfer"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">Surfer</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -165,6 +167,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -184,7 +187,7 @@
     <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Surfer">
     </span>
 
@@ -251,18 +254,14 @@
 <blockquote>
 <p>举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载</p>
 </blockquote>
-<h1 id="第一次使用ADB"><a href="#第一次使用ADB" class="headerlink" title="第一次使用ADB"></a>第一次使用ADB</h1><h2 id="下载-ADB"><a href="#下载-ADB" class="headerlink" title="下载 ADB"></a>下载 ADB</h2><p>首先我们要去 <a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn">Google Developers</a>  ,点击 <strong>下载适用于 Windows 的 SDK Platform-Tools</strong><br>下载后解压并打开文件夹，按住 <strong>shift</strong> 的同时在文件夹空白处右键，选择在终端中打开<img src="https://file.surfer-qian.top/img/Hu7Aa8.png" alt="在终端中打开"></p>
-<h2 id="连接手机"><a href="#连接手机" class="headerlink" title="连接手机"></a>连接手机</h2><ol>
-<li><p>打开手机设置—关于手机—连续点击版本号直到提示已处于开发者模式。进入<strong>开发者选项</strong>后打开 <strong>USB 调试</strong> 选项，当手机使用USB接口连接电脑时弹出提示，选择“一律允许该计算机调试”或者“仅此一次允许该计算机调试”即可</p>
-</li>
-<li><p>接着在命令行中执行 <code>adb devices</code> 后可以看到对应的 device 设备<img src="https://file.surfer-qian.top/img/Hu7ya0.png" alt="adb devices"><br>  如果出现如下错误只需要先执行 <code>cmd</code> 再执行 <code>adb devices</code><img src="https://file.surfer-qian.top/img/Hu0ga8.png" alt="adb devices"></p>
-</li>
-</ol>
-<blockquote>
-<p>这就完成了 ADB 环境的搭建，接着我们可以管理 Android 了</p>
-</blockquote>
-<h1 id="ADB-常用命令"><a href="#ADB-常用命令" class="headerlink" title="ADB 常用命令"></a>ADB 常用命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">adb devices					#查看连接设备</span><br><span class="line">adb install test.apk		# 安装应用</span><br><span class="line">adb uninstall 包名			#卸载应用，需要指定包</span><br><span class="line">adb uninstall -k 包名			#卸载app 但保留数据和缓存文件</span><br><span class="line">adb shell pm list packages		#列出手机装的所有app 的包名</span><br><span class="line">adb shell pm list packages -3	#列出除了系统应用的第三方应用包名</span><br><span class="line">adb shell pm clear 包名			#清除应用数据与缓存</span><br><span class="line">adb shell am force-stop 包名	#强制停止应用</span><br><span class="line">adb logcat						#查看日志</span><br><span class="line">adb logcat -c					#清除log 缓存</span><br><span class="line">adb reboot						#重启</span><br><span class="line">adb push &lt;local&gt; &lt;remote&gt;		#从本地复制文件到设备</span><br><span class="line">adb pull &lt;remote&gt; &lt;local&gt;		#从设备复制文件到本地</span><br><span class="line">adb bugreport					#查看bug 报告</span><br><span class="line">adb help						#查看ADB 帮助</span><br></pre></td></tr></table></figure>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -291,7 +290,7 @@
     <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Surfer">
     </span>
 
@@ -391,7 +390,7 @@
     <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Surfer">
     </span>
 
@@ -520,7 +519,7 @@
   </span>
 </div><div>
 <!--添加网站运行时间-->
-<span>小破站已经在风雨中度过了</span>
+<span>小站已经在风雨中度过了</span>
 <span id="timeDate">载入天数...</span>
 <span id="times">载入时分秒...</span>
 <script>

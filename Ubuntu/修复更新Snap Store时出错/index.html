@@ -22,12 +22,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"surfer-qian.top","root":"/","images":"/images","scheme":"Gemini","darkmode":"auto","version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="最近总是弹出更新提示,如图所示 然后转到 Ubuntu Software 软件商店更新出错，如图所示  意思是 snap-store 已经在运行，无法更新  解决方法终止 snap-store 进程后更新 在终端执行： 1killall snap-store 1sudo snap refresh snap-store  返回如图信息则更新成功 再次打开 Ubuntu Software  一切正常">
+    <meta name="description" content="最近总是弹出更新提示,如图所示 然后转到 Ubuntu Software 软件商店更新出错，如图所示  意思是 snap-store 已经在运行，无法更新">
 <meta property="og:type" content="article">
 <meta property="og:title" content="修复&quot;无法更新Snap Store&quot;">
 <meta property="og:url" content="https://surfer-qian.top/Ubuntu/%E4%BF%AE%E5%A4%8D%E6%9B%B4%E6%96%B0Snap%20Store%E6%97%B6%E5%87%BA%E9%94%99/index.html">
 <meta property="og:site_name" content="Surfer&#39;s Blog">
-<meta property="og:description" content="最近总是弹出更新提示,如图所示 然后转到 Ubuntu Software 软件商店更新出错，如图所示  意思是 snap-store 已经在运行，无法更新  解决方法终止 snap-store 进程后更新 在终端执行： 1killall snap-store 1sudo snap refresh snap-store  返回如图信息则更新成功 再次打开 Ubuntu Software  一切正常">
+<meta property="og:description" content="最近总是弹出更新提示,如图所示 然后转到 Ubuntu Software 软件商店更新出错，如图所示  意思是 snap-store 已经在运行，无法更新">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://file.surfer-qian.top/img/2022-09-09_19-26-10.png">
 <meta property="og:image" content="https://file.surfer-qian.top/img/2022-09-09_19-12-47.png">
@@ -137,6 +137,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Surfer"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">Surfer</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -177,6 +179,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
@@ -197,7 +200,7 @@
     <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/Ubuntu/%E4%BF%AE%E5%A4%8D%E6%9B%B4%E6%96%B0Snap%20Store%E6%97%B6%E5%87%BA%E9%94%99/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="Surfer">
     </span>
 
@@ -265,6 +268,8 @@
 <blockquote>
 <p>意思是 snap-store 已经在运行，无法更新</p>
 </blockquote>
+<span id="more"></span>
+
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>终止 snap-store 进程后更新</p>
 <p>在终端执行：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">killall snap-store</span><br></pre></td></tr></table></figure>
@@ -284,7 +289,7 @@
 
     <footer class="post-footer"><div>
     
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-bookmark"></i>再接再厉-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-bookmark"></i>感谢阅读-------------</div>
     
 </div>
           
@@ -364,7 +369,7 @@
   </span>
 </div><div>
 <!--添加网站运行时间-->
-<span>小破站已经在风雨中度过了</span>
+<span>小站已经在风雨中度过了</span>
 <span id="timeDate">载入天数...</span>
 <span id="times">载入时分秒...</span>
 <script>
