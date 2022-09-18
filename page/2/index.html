@@ -132,13 +132,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -172,6 +172,113 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Surfer">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Surfer's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Surfer's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/Android/%E5%88%A9%E7%94%A8%20ADB%20%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%20Android/" class="post-title-link" itemprop="url">利用 ADB 管理你的 Android</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-07-12 16:10:00" itemprop="dateCreated datePublished" datetime="2022-07-12T16:10:00+08:00">2022-07-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Android/" itemprop="url" rel="index"><span itemprop="name">Android</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>898</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="什么是ADB？"><a href="#什么是ADB？" class="headerlink" title="什么是ADB？"></a>什么是ADB？</h1><p>ADB 全称 Android Debug Bridge （Android 调试桥），是一个 Android 调试工具，可用于执行各种设备操作（例如安装软件，调试应用和控制系统），并可以使用更高权限对 Android 进行访问和控制</p>
+<blockquote>
+<p>举个例子，手机里有些系统预装软件我们是用不到的，在手机设置里也不能卸载，我们便可以利用 ADB 卸载</p>
+</blockquote>
+<h1 id="第一次使用ADB"><a href="#第一次使用ADB" class="headerlink" title="第一次使用ADB"></a>第一次使用ADB</h1><h2 id="下载-ADB"><a href="#下载-ADB" class="headerlink" title="下载 ADB"></a>下载 ADB</h2><p>首先我们要去 <a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn">Google Developers</a>  ,点击 <strong>下载适用于 Windows 的 SDK Platform-Tools</strong><br>下载后解压并打开文件夹，按住 <strong>shift</strong> 的同时在文件夹空白处右键，选择在终端中打开<img src="https://file.surfer-qian.top/img/Hu7Aa8.png" alt="在终端中打开"></p>
+<h2 id="连接手机"><a href="#连接手机" class="headerlink" title="连接手机"></a>连接手机</h2><ol>
+<li><p>打开手机设置—关于手机—连续点击版本号直到提示已处于开发者模式。进入<strong>开发者选项</strong>后打开 <strong>USB 调试</strong> 选项，当手机使用USB接口连接电脑时弹出提示，选择“一律允许该计算机调试”或者“仅此一次允许该计算机调试”即可</p>
+</li>
+<li><p>接着在命令行中执行 <code>adb devices</code> 后可以看到对应的 device 设备<img src="https://file.surfer-qian.top/img/Hu7ya0.png" alt="adb devices"><br>  如果出现如下错误只需要先执行 <code>cmd</code> 再执行 <code>adb devices</code><img src="https://file.surfer-qian.top/img/Hu0ga8.png" alt="adb devices"></p>
+</li>
+</ol>
+<blockquote>
+<p>这就完成了 ADB 环境的搭建，接着我们可以管理 Android 了</p>
+</blockquote>
+<h1 id="ADB-常用命令"><a href="#ADB-常用命令" class="headerlink" title="ADB 常用命令"></a>ADB 常用命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">adb devices					#查看连接设备</span><br><span class="line">adb install test.apk		# 安装应用</span><br><span class="line">adb uninstall 包名			#卸载应用，需要指定包</span><br><span class="line">adb uninstall -k 包名			#卸载app 但保留数据和缓存文件</span><br><span class="line">adb shell pm list packages		#列出手机装的所有app 的包名</span><br><span class="line">adb shell pm list packages -3	#列出除了系统应用的第三方应用包名</span><br><span class="line">adb shell pm clear 包名			#清除应用数据与缓存</span><br><span class="line">adb shell am force-stop 包名	#强制停止应用</span><br><span class="line">adb logcat						#查看日志</span><br><span class="line">adb logcat -c					#清除log 缓存</span><br><span class="line">adb reboot						#重启</span><br><span class="line">adb push &lt;local&gt; &lt;remote&gt;		#从本地复制文件到设备</span><br><span class="line">adb pull &lt;remote&gt; &lt;local&gt;		#从设备复制文件到本地</span><br><span class="line">adb bugreport					#查看bug 报告</span><br><span class="line">adb help						#查看ADB 帮助</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -377,129 +484,8 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://surfer-qian.top/blog/%E6%90%AD%E5%BB%BAHexo+Github%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Surfer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Surfer's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Surfer's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/blog/%E6%90%AD%E5%BB%BAHexo+Github%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">搭建Hexo+Github博客</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-01-30 21:35:00" itemprop="dateCreated datePublished" datetime="2022-01-30T21:35:00+08:00">2022-01-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-05 14:50:00" itemprop="dateModified" datetime="2022-02-05T14:50:00+08:00">2022-02-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>4.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>此博客位于 Github Pages ，利用 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> 博客框架，采用 <a target="_blank" rel="noopener" href="https://github.com/next-theme/hexo-theme-next">Next</a> 主题，以下一切步骤皆建立在此基础上</p>
-<hr>
-<h1 id="准备："><a href="#准备：" class="headerlink" title="准备："></a>准备：</h1><ol>
-<li>环境搭建： <a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git</a> 和 <a target="_blank" rel="noopener" href="https://nodejs.org/">Node.js</a></li>
-<li>一个 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a> 账户</li>
-<li><a href="#p1">连接 Github</a></li>
-<li><a href="#p2">创建 Github Pages 仓库</a></li>
-<li><a href="#p3">安装 Hexo 博客框架</a></li>
-<li><a href="#p4">网站配置</a></li>
-<li><a href="#p5">主题配置</a></li>
-<li><a href="#p6">新建文章</a></li>
-<li><a href="#p7">本地预览</a></li>
-<li><a href="#p8">部署 Hexo 到 Github Pages</a></li>
-</ol>
-<hr>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/blog/%E6%90%AD%E5%BB%BAHexo+Github%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
