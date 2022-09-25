@@ -25,7 +25,7 @@
 <li>命运是你家</li>
 <li>妄想</li>
 </ol>
-<h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p><a href="https://file.surfer-qian.top/file/Best%20Collection.zip">点此下载</a></p>
+<h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p><a href="https://file.surfer-qian.top/file/Music/Best%20Collection.zip">点此下载</a></p>
 <blockquote>
 <p> 鼠标悬停此处查看 <a herf=# title="E192F257FA94BD9D4F3009A75886A13DF76789B7322A394921F70B5C4FD3A026">SHA256</a></p>
 </blockquote>
@@ -149,6 +149,65 @@
         <tag>ADB</tag>
         <tag>Android</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>右键菜单一键更改文件属性</title>
+    <url>/uncategorized/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等<br><img src="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif"><br>这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？<span id="more"></span>于是我在右键菜单上增加了个小功能，可以快捷更改文件的一些常用属性，对于文件夹也同样适用，效果如下<br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_8oLz9k2KmB.gif" alt="隐藏文件"><br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_bSsaIdlTac.gif" alt="取消隐藏"></p>
+<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>Windows 中可以用命令 ‘attrib’ 更改文件属性，它可以显示、设置或删除分配给文件或目录的属性，语法如下</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">attrib +r +a +s +h +i &lt;路径&gt; &lt;文件名&gt; /s /d /l</span><br></pre></td></tr></table></figure>
+
+<p>参数如下</p>
+<table>
+<thead>
+<tr>
+<th align="left">参数</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">+r</td>
+<td align="left">设置 (+) 或清除 (-) 只读文件属性</td>
+</tr>
+<tr>
+<td align="left">+a</td>
+<td align="left">设置 (+) 或清除 (-) 存档文件属性</td>
+</tr>
+<tr>
+<td align="left">+s</td>
+<td align="left">设置 (+) 或清除 (-) 系统文件属性</td>
+</tr>
+<tr>
+<td align="left">+h</td>
+<td align="left">设置 (+) 或清除 (-)  隐藏文件属性</td>
+</tr>
+<tr>
+<td align="left">+i</td>
+<td align="left">设置 (+) 或清除 (-) 非内容索引文件属性</td>
+</tr>
+<tr>
+<td align="left">&#x2F;s</td>
+<td align="left">将选项应用到当前目录中及其所有子目录中的匹配文件</td>
+</tr>
+<tr>
+<td align="left">&#x2F;d</td>
+<td align="left">将选项应用到目录</td>
+</tr>
+<tr>
+<td align="left">&#x2F;l</td>
+<td align="left">将选项应用到符号链接，而不是符号链接的目标</td>
+</tr>
+</tbody></table>
+<p>更多详细参数请查看 <a href="https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/attrib">Microsoft 文档</a></p>
+<h1 id="添加到右键菜单"><a href="#添加到右键菜单" class="headerlink" title="添加到右键菜单"></a>添加到右键菜单</h1><h2 id="自己折腾"><a href="#自己折腾" class="headerlink" title="自己折腾"></a>自己折腾</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>新建一个TXT文档，打开输入以下内容并另存为 ‘ANSI’ 编码，改扩展名为 ‘.reg’ 并双击执行，然后一路点”是的”</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute ]</span><br><span class="line">&quot;SubCommands&quot;=&quot;&quot;</span><br><span class="line">&quot;icon&quot;=&quot;PowerShell.exe&quot;</span><br><span class="line">&quot;MUIVerb&quot;=&quot;Attribute &quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell]</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\01menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\01menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%&#x27; +h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\02menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\02menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\03menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\03menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; +s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\04menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\04menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\05menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\05menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; +r&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\06menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\06menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -r&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute ]</span><br><span class="line">&quot;SubCommands&quot;=&quot;&quot;</span><br><span class="line">&quot;icon&quot;=&quot;PowerShell.exe&quot;</span><br><span class="line">&quot;MUIVerb&quot;=&quot;Attribute &quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell]</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\01menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\01menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +h /s | attrib &#x27;%1&#x27; +h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\02menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\02menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -h /s | attrib &#x27;%1&#x27; -h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\03menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\03menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +s /s | attrib &#x27;%1&#x27; +s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\04menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\04menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -s /s | attrib &#x27;%1&#x27; -s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\05menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\05menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +r /s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\06menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\06menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -r /s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p>再按上面的步骤创建文件，复制粘贴以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[-HKEY_CLASSES_ROOT\*\shell\Attribute ]</span><br><span class="line">[-HKEY_CLASSES_ROOT\Folder\shell\Attribute ]</span><br></pre></td></tr></table></figure>
+
+<h2 id="直接下载reg文件"><a href="#直接下载reg文件" class="headerlink" title="直接下载reg文件"></a>直接下载reg文件</h2><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><p><a href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Install.reg">点此下载</a></p>
+<h3 id="卸载-1"><a href="#卸载-1" class="headerlink" title="卸载"></a>卸载</h3><p><a href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Uninstall.reg">点此下载</a></p>
+]]></content>
   </entry>
   <entry>
     <title>在Ubuntu 22.04中安装非snap版Firefox</title>
