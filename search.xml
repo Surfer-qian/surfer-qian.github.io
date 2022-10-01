@@ -33,6 +33,9 @@
       <categories>
         <category>Music</category>
       </categories>
+      <tags>
+        <tag>音乐</tag>
+      </tags>
   </entry>
   <entry>
     <title>为Github博客添加域名</title>
@@ -89,7 +92,6 @@
       <tags>
         <tag>blog</tag>
         <tag>Hexo</tag>
-        <tag>next</tag>
       </tags>
   </entry>
   <entry>
@@ -152,7 +154,7 @@
   </entry>
   <entry>
     <title>右键菜单一键更改文件属性</title>
-    <url>/uncategorized/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/</url>
+    <url>/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等<br><img src="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif"><br>这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？<span id="more"></span>于是我在右键菜单上增加了个小功能，可以快捷更改文件的一些常用属性，对于文件夹也同样适用，效果如下<br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_8oLz9k2KmB.gif" alt="隐藏文件"><br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_bSsaIdlTac.gif" alt="取消隐藏"></p>
 <h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>Windows 中可以用命令 ‘attrib’ 更改文件属性，它可以显示、设置或删除分配给文件或目录的属性，语法如下</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">attrib +r +a +s +h +i &lt;路径&gt; &lt;文件名&gt; /s /d /l</span><br></pre></td></tr></table></figure>
@@ -208,6 +210,12 @@
 <h2 id="直接下载reg文件"><a href="#直接下载reg文件" class="headerlink" title="直接下载reg文件"></a>直接下载reg文件</h2><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><p><a href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Install.reg">点此下载</a></p>
 <h3 id="卸载-1"><a href="#卸载-1" class="headerlink" title="卸载"></a>卸载</h3><p><a href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Uninstall.reg">点此下载</a></p>
 ]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
   </entry>
   <entry>
     <title>在Ubuntu 22.04中安装非snap版Firefox</title>
@@ -430,7 +438,6 @@
         <tag>blog</tag>
         <tag>Hexo</tag>
         <tag>Github</tag>
-        <tag>next</tag>
       </tags>
   </entry>
 </search>
