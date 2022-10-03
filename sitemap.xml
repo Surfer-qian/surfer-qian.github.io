@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://surfer-qian.top/404.html</loc>
-    
-    <lastmod>2022-10-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://surfer-qian.top/about/index.html</loc>
     
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +13,7 @@
   <url>
     <loc>https://surfer-qian.top/categories/index.html</loc>
     
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +22,16 @@
   <url>
     <loc>https://surfer-qian.top/tags/index.html</loc>
     
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://surfer-qian.top/404.html</loc>
+    
+    <lastmod>2022-10-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://surfer-qian.top/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,70 +129,70 @@
   
   <url>
     <loc>https://surfer-qian.top/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/blog/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Hexo/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Github/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Ubuntu/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Linux/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/ADB/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Android/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/tags/Windows/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -201,35 +201,35 @@
   
   <url>
     <loc>https://surfer-qian.top/categories/Music/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/categories/blog/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/categories/Ubuntu/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/categories/Android/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://surfer-qian.top/categories/Windows/</loc>
-    <lastmod>2022-10-02</lastmod>
+    <lastmod>2022-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
