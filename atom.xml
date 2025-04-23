@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Surfer&#39;s Blog</title>
+  <icon>https://surfer-qian.top/icon.png</icon>
+  
+  <link href="https://surfer-qian.top/atom.xml" rel="self"/>
+  
+  <link href="https://surfer-qian.top/"/>
+  <updated>2022-09-25T05:14:04.000Z</updated>
+  <id>https://surfer-qian.top/</id>
+  
+  <author>
+    <name>Surfer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>右键菜单一键更改文件属性</title>
+    <link href="https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/"/>
+    <id>https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/</id>
+    <published>2022-09-25T05:14:04.000Z</published>
+    <updated>2022-09-25T05:14:04.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等&lt;br&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif&quot;&gt;&lt;br&gt;这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？</summary>
+    
+    
+    
+    <category term="Windows" scheme="https://surfer-qian.top/categories/Windows/"/>
+    
+    
+    <category term="Windows" scheme="https://surfer-qian.top/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Beyond《Best Collection》SACD分享</title>
+    <link href="https://surfer-qian.top/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/"/>
+    <id>https://surfer-qian.top/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/</id>
+    <published>2022-09-17T05:05:59.000Z</published>
+    <updated>2022-09-17T05:05:59.000Z</updated>
+    
+    
+    <summary type="html">&lt;img src=&quot;https://i.discogs.com/ic84bT0V-7H3hlfwJW2x7i8p1-F9XIQkfpQxHOKj4xM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDYz/MTQ1LTE0OTA5ODA5/NDMtODEyOS5qcGVn.jpeg&quot; width = &quot;50%&quot; /&gt;</summary>
+    
+    
+    
+    <category term="Music" scheme="https://surfer-qian.top/categories/Music/"/>
+    
+    
+    <category term="音乐" scheme="https://surfer-qian.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修复&quot;无法更新Snap Store&quot;</title>
+    <link href="https://surfer-qian.top/Ubuntu/%E4%BF%AE%E5%A4%8D%E6%9B%B4%E6%96%B0Snap%20Store%E6%97%B6%E5%87%BA%E9%94%99/"/>
+    <id>https://surfer-qian.top/Ubuntu/%E4%BF%AE%E5%A4%8D%E6%9B%B4%E6%96%B0Snap%20Store%E6%97%B6%E5%87%BA%E9%94%99/</id>
+    <published>2022-09-09T11:24:28.000Z</published>
+    <updated>2022-09-09T11:24:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近总是弹出更新提示,如图所示&lt;img src=&quot;https://file.surfer-qian.top/img/2022-09-09_19-26-10.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后转到 Ubuntu Software 软件商店更新出错，如图所示&lt;img src=&quot;https://file.surfer-qian.top/img/2022-09-09_19-12-47.png&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;意思是 snap-store 已经在运行，无法更新&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Ubuntu" scheme="https://surfer-qian.top/categories/Ubuntu/"/>
+    
+    
+    <category term="Ubuntu" scheme="https://surfer-qian.top/tags/Ubuntu/"/>
+    
+    <category term="Linux" scheme="https://surfer-qian.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Ubuntu 22.04中安装非snap版Firefox</title>
+    <link href="https://surfer-qian.top/Ubuntu/%E5%9C%A8Ubuntu%2022.04%E4%B8%AD%E5%AE%89%E8%A3%85%E9%9D%9Esnap%E7%89%88Firefox/"/>
+    <id>https://surfer-qian.top/Ubuntu/%E5%9C%A8Ubuntu%2022.04%E4%B8%AD%E5%AE%89%E8%A3%85%E9%9D%9Esnap%E7%89%88Firefox/</id>
+    <published>2022-09-09T07:10:32.000Z</published>
+    <updated>2022-09-09T07:10:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;什么是-Snap&quot;&gt;&lt;a href=&quot;#什么是-Snap&quot; class=&quot;headerlink&quot; title=&quot;什么是 Snap&quot;&gt;&lt;/a&gt;什么是 Snap&lt;/h1&gt;&lt;p&gt;Snap 是一种软件包管理方式，它类似于一个拥有应用程序所有的文件和库的容器，各个应用程序之间完全独立，&lt;a href=&quot;https://cn.ubuntu.com/blog/what-is-snap-application&quot;&gt;ubuntu.cn&lt;/a&gt; 中是这么介绍的：&lt;code&gt;每个snap默认都被严格限制（confined），即限制系统权限和资源访问。&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Ubuntu" scheme="https://surfer-qian.top/categories/Ubuntu/"/>
+    
+    
+    <category term="Ubuntu" scheme="https://surfer-qian.top/tags/Ubuntu/"/>
+    
+    <category term="Linux" scheme="https://surfer-qian.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Hexo设置阅读全文功能</title>
+    <link href="https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/"/>
+    <id>https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/</id>
+    <published>2022-02-06T07:09:22.000Z</published>
+    <updated>2022-02-06T07:09:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为 Hexo 文章设置一个链接 “阅读全文” 来进入文章的详情页，同时只显示前言部分——就是你现在看到的样子。 &lt;br&gt;&lt;br&gt;点击阅读全文看看是如何实现的&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Github博客添加域名</title>
+    <link href="https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/"/>
+    <id>https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/</id>
+    <published>2022-02-05T08:20:13.000Z</published>
+    <updated>2022-02-05T08:20:13.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h1&gt;&lt;p&gt;推荐在 &lt;a href=&quot;https://www.namesilo.com/&quot;&gt;NameSilo&lt;/a&gt; 购买域名，Namesilo 是 ICANN 认证的域名注册商之一，安全保护到位，域名价格便宜，支持支付宝、Paypal、信用卡等多种方式付款，性价比很高。&lt;/p&gt;
+&lt;h2 id=&quot;优惠码&quot;&gt;&lt;a href=&quot;#优惠码&quot; class=&quot;headerlink&quot; title=&quot;优惠码&quot;&gt;&lt;/a&gt;优惠码&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选好要购买的域名后，输入优惠码 &lt;code&gt;toptop1&lt;/code&gt; 即可优惠 &lt;code&gt;$1&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/Hmbp9K.png&quot; alt=&quot;使用优惠码&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+    <category term="域名" scheme="https://surfer-qian.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Hexo搭建Github Pages博客</title>
+    <link href="https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E7%94%A8Hexo%E6%90%AD%E5%BB%BAGithub%20Pages%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E7%94%A8Hexo%E6%90%AD%E5%BB%BAGithub%20Pages%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-02-05T06:50:00.000Z</published>
+    <updated>2024-10-20T08:50:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;此博客位于 Github Pages ，利用 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt; 博客框架，采用 &lt;a href=&quot;https://github.com/next-theme/hexo-theme-next&quot;&gt;Next&lt;/a&gt; 主题，以下一切步骤皆建立在此基础上&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;准备：&quot;&gt;&lt;a href=&quot;#准备：&quot; class=&quot;headerlink&quot; title=&quot;准备：&quot;&gt;&lt;/a&gt;准备：&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;环境搭建： &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git&lt;/a&gt; 和 &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一个 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; 账户&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p1&quot;&gt;连接 Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p2&quot;&gt;创建 Github Pages 仓库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p3&quot;&gt;安装 Hexo 博客框架&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p4&quot;&gt;网站配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p5&quot;&gt;主题配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p6&quot;&gt;新建文章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p7&quot;&gt;本地预览&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#p8&quot;&gt;部署 Hexo 到 Github Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="博客" scheme="https://surfer-qian.top/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
+    
+    <category term="博客" scheme="https://surfer-qian.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
