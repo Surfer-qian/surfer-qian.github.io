@@ -6,7 +6,7 @@
   <link href="https://surfer-qian.top/atom.xml" rel="self"/>
   
   <link href="https://surfer-qian.top/"/>
-  <updated>2022-09-25T05:14:04.000Z</updated>
+  <updated>2025-05-09T02:00:00.000Z</updated>
   <id>https://surfer-qian.top/</id>
   
   <author>
@@ -17,14 +17,22 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>右键菜单一键更改文件属性</title>
+    <title>Windows 右键菜单快速更改文件属性</title>
     <link href="https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/"/>
     <id>https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/</id>
     <published>2022-09-25T05:14:04.000Z</published>
-    <updated>2022-09-25T05:14:04.000Z</updated>
+    <updated>2025-05-09T02:00:00.000Z</updated>
     
     
-    <summary type="html">&lt;p&gt;通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等&lt;br&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif&quot;&gt;&lt;br&gt;这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？</summary>
+    <summary type="html">&lt;h2 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h2&gt;&lt;p&gt;在 Windows 中更改文件属性通常需要以下步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;右键点击文件&lt;/li&gt;
+&lt;li&gt;选择”属性”&lt;/li&gt;
+&lt;li&gt;在属性窗口中勾选相应选项&lt;/li&gt;
+&lt;li&gt;点击确定&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif&quot; alt=&quot;传统更改文件属性方式&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这个过程略显繁琐。本文将介绍如何添加一个更便捷的右键菜单来快速更改文件属性。&lt;/p&gt;</summary>
     
     
     
@@ -33,12 +41,18 @@
     
     <category term="Windows" scheme="https://surfer-qian.top/tags/Windows/"/>
     
+    <category term="效率工具" scheme="https://surfer-qian.top/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="注册表" scheme="https://surfer-qian.top/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
+    
+    <category term="PowerShell" scheme="https://surfer-qian.top/tags/PowerShell/"/>
+    
   </entry>
   
   <entry>
     <title>Beyond《Best Collection》SACD分享</title>
-    <link href="https://surfer-qian.top/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/"/>
-    <id>https://surfer-qian.top/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/</id>
+    <link href="https://surfer-qian.top/%E9%9F%B3%E4%B9%90/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/"/>
+    <id>https://surfer-qian.top/%E9%9F%B3%E4%B9%90/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/</id>
     <published>2022-09-17T05:05:59.000Z</published>
     <updated>2022-09-17T05:05:59.000Z</updated>
     
@@ -47,7 +61,7 @@
     
     
     
-    <category term="Music" scheme="https://surfer-qian.top/categories/Music/"/>
+    <category term="音乐" scheme="https://surfer-qian.top/categories/%E9%9F%B3%E4%B9%90/"/>
     
     
     <category term="音乐" scheme="https://surfer-qian.top/tags/%E9%9F%B3%E4%B9%90/"/>
@@ -102,8 +116,8 @@
   
   <entry>
     <title>为Hexo设置阅读全文功能</title>
-    <link href="https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/"/>
-    <id>https://surfer-qian.top/blog/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/</id>
+    <link href="https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/"/>
+    <id>https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E4%B8%BAHexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/</id>
     <published>2022-02-06T07:09:22.000Z</published>
     <updated>2022-02-06T07:09:22.000Z</updated>
     
@@ -112,41 +126,48 @@
     
     
     
-    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    <category term="博客" scheme="https://surfer-qian.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-    
-    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
     
     <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
     
   </entry>
   
   <entry>
-    <title>为Github博客添加域名</title>
-    <link href="https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/"/>
-    <id>https://surfer-qian.top/blog/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/</id>
+    <title>为 Github 博客添加自定义域名</title>
+    <link href="https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/"/>
+    <id>https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E4%B8%BAGithub%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%9F%9F%E5%90%8D/</id>
     <published>2022-02-05T08:20:13.000Z</published>
-    <updated>2022-02-05T08:20:13.000Z</updated>
+    <updated>2025-05-09T02:00:00.000Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h1&gt;&lt;p&gt;推荐在 &lt;a href=&quot;https://www.namesilo.com/&quot;&gt;NameSilo&lt;/a&gt; 购买域名，Namesilo 是 ICANN 认证的域名注册商之一，安全保护到位，域名价格便宜，支持支付宝、Paypal、信用卡等多种方式付款，性价比很高。&lt;/p&gt;
-&lt;h2 id=&quot;优惠码&quot;&gt;&lt;a href=&quot;#优惠码&quot; class=&quot;headerlink&quot; title=&quot;优惠码&quot;&gt;&lt;/a&gt;优惠码&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;选好要购买的域名后，输入优惠码 &lt;code&gt;toptop1&lt;/code&gt; 即可优惠 &lt;code&gt;$1&lt;/code&gt;&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;域名购买&quot;&gt;&lt;a href=&quot;#域名购买&quot; class=&quot;headerlink&quot; title=&quot;域名购买&quot;&gt;&lt;/a&gt;域名购买&lt;/h2&gt;&lt;p&gt;在开始配置之前，我们需要先购买一个域名。这里推荐使用 &lt;a href=&quot;https://www.namesilo.com/&quot;&gt;NameSilo&lt;/a&gt; 作为域名注册商，原因如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ICANN 认证的可靠域名注册商&lt;/li&gt;
+&lt;li&gt;价格实惠，经常有优惠活动&lt;/li&gt;
+&lt;li&gt;支持多种支付方式（支付宝、PayPal、信用卡等）&lt;/li&gt;
+&lt;li&gt;免费的隐私保护服务&lt;/li&gt;
+&lt;li&gt;操作界面简单直观&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;购买优惠&quot;&gt;&lt;a href=&quot;#购买优惠&quot; class=&quot;headerlink&quot; title=&quot;购买优惠&quot;&gt;&lt;/a&gt;购买优惠&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;优惠码&lt;/strong&gt;: 使用 &lt;code&gt;toptop1&lt;/code&gt; 可以立即优惠 $1&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/Hmbp9K.png&quot; alt=&quot;使用优惠码&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;https://file.surfer-qian.top/img/Hmbp9K.png&quot; alt=&quot;NameSilo 优惠码使用示例&quot;&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="blog" scheme="https://surfer-qian.top/categories/blog/"/>
+    <category term="博客" scheme="https://surfer-qian.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="blog" scheme="https://surfer-qian.top/tags/blog/"/>
+    <category term="GitHub" scheme="https://surfer-qian.top/tags/GitHub/"/>
+    
+    <category term="Pages" scheme="https://surfer-qian.top/tags/Pages/"/>
     
     <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
     
-    <category term="域名" scheme="https://surfer-qian.top/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名配置" scheme="https://surfer-qian.top/tags/%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
+    <category term="NameSilo" scheme="https://surfer-qian.top/tags/NameSilo/"/>
     
   </entry>
   
@@ -181,9 +202,9 @@
     
     <category term="Hexo" scheme="https://surfer-qian.top/tags/Hexo/"/>
     
-    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
-    
     <category term="博客" scheme="https://surfer-qian.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://surfer-qian.top/tags/Github/"/>
     
   </entry>
   

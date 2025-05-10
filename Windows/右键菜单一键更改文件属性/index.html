@@ -21,20 +21,23 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"surfer-qian.top","root":"/","images":"/images","scheme":"Gemini","darkmode":"auto","version":"8.23.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？">
+    <meta name="description" content="背景介绍在 Windows 中更改文件属性通常需要以下步骤：  右键点击文件 选择”属性” 在属性窗口中勾选相应选项 点击确定   这个过程略显繁琐。本文将介绍如何添加一个更便捷的右键菜单来快速更改文件属性。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="右键菜单一键更改文件属性">
+<meta property="og:title" content="Windows 右键菜单快速更改文件属性">
 <meta property="og:url" content="https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/index.html">
 <meta property="og:site_name" content="Surfer&#39;s Blog">
-<meta property="og:description" content="通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？">
+<meta property="og:description" content="背景介绍在 Windows 中更改文件属性通常需要以下步骤：  右键点击文件 选择”属性” 在属性窗口中勾选相应选项 点击确定   这个过程略显繁琐。本文将介绍如何添加一个更便捷的右键菜单来快速更改文件属性。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif">
 <meta property="og:image" content="https://file.surfer-qian.top/img/NVIDIA_Share_8oLz9k2KmB.gif">
 <meta property="og:image" content="https://file.surfer-qian.top/img/NVIDIA_Share_bSsaIdlTac.gif">
 <meta property="article:published_time" content="2022-09-25T05:14:04.000Z">
-<meta property="article:modified_time" content="2022-09-25T05:14:04.000Z">
+<meta property="article:modified_time" content="2025-05-09T02:00:00.000Z">
 <meta property="article:author" content="Surfer">
 <meta property="article:tag" content="Windows">
+<meta property="article:tag" content="效率工具">
+<meta property="article:tag" content="注册表">
+<meta property="article:tag" content="PowerShell">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif">
 
@@ -42,10 +45,10 @@
 <link rel="canonical" href="https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/","path":"Windows/右键菜单一键更改文件属性/","title":"右键菜单一键更改文件属性"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://surfer-qian.top/Windows/%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E4%B8%80%E9%94%AE%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7/","path":"Windows/右键菜单一键更改文件属性/","title":"Windows 右键菜单快速更改文件属性"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>右键菜单一键更改文件属性 | Surfer's Blog</title>
+<title>Windows 右键菜单快速更改文件属性 | Surfer's Blog</title>
   
 
 
@@ -166,7 +169,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8E%9F%E7%90%86"><span class="nav-number">1.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E5%88%B0%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95"><span class="nav-number">2.</span> <span class="nav-text">添加到右键菜单</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%87%AA%E5%B7%B1%E6%8A%98%E8%85%BE"><span class="nav-number">2.1.</span> <span class="nav-text">自己折腾</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">2.1.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BD"><span class="nav-number">2.1.2.</span> <span class="nav-text">卸载</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDreg%E6%96%87%E4%BB%B6"><span class="nav-number">2.2.</span> <span class="nav-text">直接下载reg文件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-1"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BD-1"><span class="nav-number">2.2.2.</span> <span class="nav-text">卸载</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">背景介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA"><span class="nav-number">2.</span> <span class="nav-text">功能展示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86"><span class="nav-number">3.</span> <span class="nav-text">技术原理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#attrib-%E5%91%BD%E4%BB%A4%E4%BB%8B%E7%BB%8D"><span class="nav-number">3.1.</span> <span class="nav-text">attrib 命令介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="nav-number">3.2.</span> <span class="nav-text">重要参数说明</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">安装配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B9%E5%BC%8F%E4%B8%80%EF%BC%9A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85"><span class="nav-number">4.1.</span> <span class="nav-text">方式一：手动安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9A%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85"><span class="nav-number">4.2.</span> <span class="nav-text">方式二：一键安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="nav-number">5.</span> <span class="nav-text">使用说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">6.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E6%8F%90%E7%A4%BA"><span class="nav-number">7.</span> <span class="nav-text">相关提示</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -185,12 +188,12 @@
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">14</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -230,12 +233,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="右键菜单一键更改文件属性 | Surfer's Blog">
+      <meta itemprop="name" content="Windows 右键菜单快速更改文件属性 | Surfer's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          右键菜单一键更改文件属性
+          Windows 右键菜单快速更改文件属性
         </h1>
 
         <div class="post-meta-container">
@@ -247,6 +250,13 @@
       <span class="post-meta-item-text">发表于</span>
 
       <time title="创建时间：2022-09-25 13:14:04" itemprop="dateCreated datePublished" datetime="2022-09-25T13:14:04+08:00">2022-09-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-05-09 10:00:00" itemprop="dateModified" datetime="2025-05-09T10:00:00+08:00">2025-05-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -265,7 +275,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>690</span>
+      <span>811</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -282,60 +292,101 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>通常我们要更改文件属性时，我们需要右键菜单-属性-勾选属性，例如隐藏文件、将文件设置为只读等<br><img src="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif"><br>这样的操作还不够快，那有什么方法可以更加方便的隐藏文件呢？<span id="more"></span>于是我在右键菜单上增加了个小功能，可以快捷更改文件的一些常用属性，对于文件夹也同样适用，效果如下<br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_8oLz9k2KmB.gif" alt="隐藏文件"><br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_bSsaIdlTac.gif" alt="取消隐藏"></p>
-<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>Windows 中可以用命令 ‘attrib’ 更改文件属性，它可以显示、设置或删除分配给文件或目录的属性，语法如下</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">attrib +r +a +s +h +i &lt;路径&gt; &lt;文件名&gt; /s /d /l</span><br></pre></td></tr></table></figure>
+    <div class="post-body" itemprop="articleBody"><h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>在 Windows 中更改文件属性通常需要以下步骤：</p>
+<ol>
+<li>右键点击文件</li>
+<li>选择”属性”</li>
+<li>在属性窗口中勾选相应选项</li>
+<li>点击确定</li>
+</ol>
+<p><img src="https://file.surfer-qian.top/img/explorer_k25X0wj07x.gif" alt="传统更改文件属性方式"></p>
+<p>这个过程略显繁琐。本文将介绍如何添加一个更便捷的右键菜单来快速更改文件属性。</p>
+<span id="more"></span>
 
-<p>参数如下</p>
-<table>
+<h2 id="功能展示"><a href="#功能展示" class="headerlink" title="功能展示"></a>功能展示</h2><p>通过本文的方法，你可以实现以下效果：</p>
+<ul>
+<li><p>一键隐藏文件&#x2F;文件夹<br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_8oLz9k2KmB.gif" alt="隐藏文件演示"></p>
+</li>
+<li><p>一键取消隐藏<br><img src="https://file.surfer-qian.top/img/NVIDIA_Share_bSsaIdlTac.gif" alt="取消隐藏演示"></p>
+</li>
+</ul>
+<h2 id="技术原理"><a href="#技术原理" class="headerlink" title="技术原理"></a>技术原理</h2><h3 id="attrib-命令介绍"><a href="#attrib-命令介绍" class="headerlink" title="attrib 命令介绍"></a>attrib 命令介绍</h3><p>Windows 提供了 <code>attrib</code> 命令用于管理文件属性，其基本语法为：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">attrib [+|-][r|a|s|h|i] [&lt;路径&gt;] [&lt;文件名&gt;] [/s] [/d] [/l]</span><br></pre></td></tr></table></figure>
+
+<h3 id="重要参数说明"><a href="#重要参数说明" class="headerlink" title="重要参数说明"></a>重要参数说明</h3><table>
 <thead>
 <tr>
 <th align="left">参数</th>
-<th align="left">说明</th>
+<th align="left">功能描述</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">+r</td>
-<td align="left">设置 (+) 或清除 (-) 只读文件属性</td>
+<td align="left">+r&#x2F;-r</td>
+<td align="left">设置&#x2F;取消只读属性</td>
 </tr>
 <tr>
-<td align="left">+a</td>
-<td align="left">设置 (+) 或清除 (-) 存档文件属性</td>
+<td align="left">+h&#x2F;-h</td>
+<td align="left">设置&#x2F;取消隐藏属性</td>
 </tr>
 <tr>
-<td align="left">+s</td>
-<td align="left">设置 (+) 或清除 (-) 系统文件属性</td>
+<td align="left">+s&#x2F;-s</td>
+<td align="left">设置&#x2F;取消系统属性</td>
 </tr>
 <tr>
-<td align="left">+h</td>
-<td align="left">设置 (+) 或清除 (-)  隐藏文件属性</td>
-</tr>
-<tr>
-<td align="left">+i</td>
-<td align="left">设置 (+) 或清除 (-) 非内容索引文件属性</td>
+<td align="left">+a&#x2F;-a</td>
+<td align="left">设置&#x2F;取消存档属性</td>
 </tr>
 <tr>
 <td align="left">&#x2F;s</td>
-<td align="left">将选项应用到当前目录中及其所有子目录中的匹配文件</td>
+<td align="left">处理当前目录及所有子目录</td>
 </tr>
 <tr>
 <td align="left">&#x2F;d</td>
-<td align="left">将选项应用到目录</td>
-</tr>
-<tr>
-<td align="left">&#x2F;l</td>
-<td align="left">将选项应用到符号链接，而不是符号链接的目标</td>
+<td align="left">同时处理目录</td>
 </tr>
 </tbody></table>
-<p>更多详细参数请查看 <a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/attrib">Microsoft 文档</a></p>
-<h1 id="添加到右键菜单"><a href="#添加到右键菜单" class="headerlink" title="添加到右键菜单"></a>添加到右键菜单</h1><h2 id="自己折腾"><a href="#自己折腾" class="headerlink" title="自己折腾"></a>自己折腾</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>新建一个TXT文档，打开输入以下内容并另存为 ‘ANSI’ 编码，改扩展名为 ‘.reg’ 并双击执行，然后一路点”是的”</p>
+<blockquote>
+<p>详细参数说明请参考 <a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/attrib">Microsoft 官方文档</a></p>
+</blockquote>
+<h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><h3 id="方式一：手动安装"><a href="#方式一：手动安装" class="headerlink" title="方式一：手动安装"></a>方式一：手动安装</h3><ol>
+<li>创建注册表文件：<ul>
+<li>新建文本文档</li>
+<li>复制下方代码</li>
+<li>另存为 <code>.reg</code> 文件（编码选择 ANSI）</li>
+<li>双击运行并确认</li>
+</ul>
+</li>
+</ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute ]</span><br><span class="line">&quot;SubCommands&quot;=&quot;&quot;</span><br><span class="line">&quot;icon&quot;=&quot;PowerShell.exe&quot;</span><br><span class="line">&quot;MUIVerb&quot;=&quot;Attribute &quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell]</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\01menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\01menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; +h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\02menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\02menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\03menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\03menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; +s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\04menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\04menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\05menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\05menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; +r&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\06menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\Attribute \shell\06menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1&#x27; -r&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute ]</span><br><span class="line">&quot;SubCommands&quot;=&quot;&quot;</span><br><span class="line">&quot;icon&quot;=&quot;PowerShell.exe&quot;</span><br><span class="line">&quot;MUIVerb&quot;=&quot;Attribute &quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell]</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\01menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\01menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +h /s | attrib &#x27;%1&#x27; +h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\02menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Hidden&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\02menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -h /s | attrib &#x27;%1&#x27; -h&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\03menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\03menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +s /s | attrib &#x27;%1&#x27; +s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\04menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-System&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\04menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -s /s | attrib &#x27;%1&#x27; -s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\05menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;+Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\05menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; +r /s&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\06menu]</span><br><span class="line">&quot;MUIVerb&quot;=&quot;-Read-Only&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\Folder\shell\Attribute \shell\06menu\command]</span><br><span class="line">@=&quot;powershell attrib &#x27;%1\\*.*&#x27; -r /s&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p>再按上面的步骤创建文件，复制粘贴以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[-HKEY_CLASSES_ROOT\*\shell\Attribute ]</span><br><span class="line">[-HKEY_CLASSES_ROOT\Folder\shell\Attribute ]</span><br></pre></td></tr></table></figure>
-
-<h2 id="直接下载reg文件"><a href="#直接下载reg文件" class="headerlink" title="直接下载reg文件"></a>直接下载reg文件</h2><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><p><a target="_blank" rel="noopener" href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Install.reg">点此下载</a></p>
-<h3 id="卸载-1"><a href="#卸载-1" class="headerlink" title="卸载"></a>卸载</h3><p><a target="_blank" rel="noopener" href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Uninstall.reg">点此下载</a></p>
+<h3 id="方式二：一键安装"><a href="#方式二：一键安装" class="headerlink" title="方式二：一键安装"></a>方式二：一键安装</h3><p>直接下载并运行预制的注册表文件：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Install.reg">安装文件下载</a></li>
+<li><a target="_blank" rel="noopener" href="https://file.surfer-qian.top/file/Context%20Menu/Attribute%20Tool_Uninstall.reg">卸载文件下载</a></li>
+</ul>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><ol>
+<li>安装完成后，右键点击任意文件或文件夹</li>
+<li>在右键菜单中找到 “Attribute” 选项</li>
+<li>选择需要的属性操作：<ul>
+<li>+Hidden：隐藏文件</li>
+<li>-Hidden：取消隐藏</li>
+<li>+System：设置系统属性</li>
+<li>-System：取消系统属性</li>
+<li>+Read-Only：设置只读</li>
+<li>-Read-Only：取消只读</li>
+</ul>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>修改注册表有一定风险，建议先备份</li>
+<li>系统文件请谨慎操作</li>
+<li>如遇问题可使用卸载文件恢复原状</li>
+</ol>
+<h2 id="相关提示"><a href="#相关提示" class="headerlink" title="相关提示"></a>相关提示</h2><ul>
+<li>对文件夹操作时会自动递归处理其下所有文件</li>
+<li>可以同时选择多个文件进行操作</li>
+<li>某些系统保护的文件可能需要管理员权限</li>
+</ul>
 
     </div>
 
@@ -350,13 +401,16 @@
 </div>
           <div class="post-tags">
               <a href="/tags/Windows/" rel="tag"># Windows</a>
+              <a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" rel="tag"># 效率工具</a>
+              <a href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" rel="tag"># 注册表</a>
+              <a href="/tags/PowerShell/" rel="tag"># PowerShell</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/Music/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/" rel="prev" title="Beyond《Best Collection》SACD分享">
+                <a href="/%E9%9F%B3%E4%B9%90/Beyond%E3%80%8ABest-Collection%E3%80%8BSACD%E5%88%86%E4%BA%AB/" rel="prev" title="Beyond《Best Collection》SACD分享">
                   <i class="fa fa-angle-left"></i> Beyond《Best Collection》SACD分享
                 </a>
             </div>
@@ -399,7 +453,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">15 分钟</span>
+    <span title="站点阅读时长">16 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
