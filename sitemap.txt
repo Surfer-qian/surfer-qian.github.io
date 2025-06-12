@@ -12,9 +12,11 @@ https://surfer-qian.top/Ubuntu/%E5%9C%A8Ubuntu%2022.04%E4%B8%AD%E5%AE%89%E8%A3%8
 https://surfer-qian.top/%E5%8D%9A%E5%AE%A2/%E4%B8%BA%20Hexo%20%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/
 https://surfer-qian.top/
 https://surfer-qian.top/tags/%E9%9F%B3%E4%B9%90/
+https://surfer-qian.top/tags/DSD/
 https://surfer-qian.top/tags/Windows/
 https://surfer-qian.top/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/
 https://surfer-qian.top/tags/PowerShell/
+https://surfer-qian.top/tags/Hi-Res/
 https://surfer-qian.top/tags/GitHub/
 https://surfer-qian.top/tags/Pages/
 https://surfer-qian.top/tags/Hexo/
