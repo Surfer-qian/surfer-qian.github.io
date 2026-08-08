@@ -3,8 +3,8 @@
 //       静态资源 = cache-first（文件名带 hash 天然免疫过期）。
 // 版本号变更 = 全量换新缓存。
 // 每次改 JS/CSS/组件后必须 bump（否则 SW 缓存旧资源，用户看到旧版/旧交互）。
-const VERSION = 'v1';
-const CACHE = `surfer-${VERSION}`;
+const VERSION = 'v2';
+const CACHE = `cache-${VERSION}`;
 
 self.addEventListener('install', () => {
   self.skipWaiting();
@@ -35,7 +35,7 @@ self.addEventListener('fetch', (event) => {
       || !['80', '443'].includes(self.location.port);
     if (isDev) {
       event.respondWith(
-        fetch(request)
+        fetch(request, { cache: 'no-store' }) // no-store：SW 后台更新不被浏览器 HTTP 缓存堵死
           .then((res) => {
             if (res.ok) {
               const copy = res.clone();
@@ -49,7 +49,7 @@ self.addEventListener('fetch', (event) => {
     }
     event.respondWith(
       caches.match(request).then((cached) => {
-        const network = fetch(request)
+        const network = fetch(request, { cache: 'no-store' }) // no-store：SWR 后台更新直连边缘，不被 HTTP 缓存拦（2026-08-08 修复）
           .then((res) => {
             if (res.ok) {
               const copy = res.clone();
