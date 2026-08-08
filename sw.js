@@ -3,7 +3,7 @@
 //       静态资源 = cache-first（文件名带 hash 天然免疫过期）。
 // 版本号变更 = 全量换新缓存。
 // 每次改 JS/CSS/组件后必须 bump（否则 SW 缓存旧资源，用户看到旧版/旧交互）。
-const VERSION = 'surfer-v5';
+const VERSION = 'v1';
 const CACHE = `surfer-${VERSION}`;
 
 self.addEventListener('install', () => {
