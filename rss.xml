@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Surfer's Blog</title>
+  <link>https://surfer-qian.top/</link>
+  <description>音乐与技术的个人博客</description>
+  <language>zh-CN</language>
+<item>
+  <title><![CDATA[《安和桥北》 (FLAC)专辑分享]]></title>
+  <link>https://surfer-qian.top/posts/anhe-qiaobei-flac/</link>
+  <guid>https://surfer-qian.top/posts/anhe-qiaobei-flac/</guid>
+  <pubDate>Thu, 12 Jun 2025 08:10:00 GMT</pubDate>
+  <description><![CDATA[宋冬野《安和桥北》FLAC 高解析版（192kHz/24bit），附完整曲目与网盘下载。]]></description>
+</item>
+<item>
+  <title><![CDATA[《安和桥北》(DSD Vinyl Rip)专辑分享]]></title>
+  <link>https://surfer-qian.top/posts/anhe-qiaobei-dsd/</link>
+  <guid>https://surfer-qian.top/posts/anhe-qiaobei-dsd/</guid>
+  <pubDate>Thu, 12 Jun 2025 07:26:00 GMT</pubDate>
+  <description><![CDATA[宋冬野《安和桥北》DSD 黑胶转录版（DSF/DSD128），附完整曲目与网盘下载。]]></description>
+</item>
+<item>
+  <title><![CDATA[Ryuichi Sakamoto - 《Music For Film》 专辑分享]]></title>
+  <link>https://surfer-qian.top/posts/ryuichi-sakamoto-music-for-film/</link>
+  <guid>https://surfer-qian.top/posts/ryuichi-sakamoto-music-for-film/</guid>
+  <pubDate>Mon, 02 Jun 2025 10:17:00 GMT</pubDate>
+  <description><![CDATA[坂本龙一电影配乐精选《Music For Film》SACD 版，收录 13 首经典配乐与网盘下载。]]></description>
+</item>
+<item>
+  <title><![CDATA[Windows 右键菜单快速验证文件哈希]]></title>
+  <link>https://surfer-qian.top/posts/windows-context-menu-file-hash/</link>
+  <guid>https://surfer-qian.top/posts/windows-context-menu-file-hash/</guid>
+  <pubDate>Sat, 10 May 2025 14:46:00 GMT</pubDate>
+  <description><![CDATA[右键菜单一键验证文件哈希，支持 SHA1/SHA256/MD5 等 8 种算法，注册表一键安装。]]></description>
+</item>
+<item>
+  <title><![CDATA[Windows 右键菜单快速更改文件属性]]></title>
+  <link>https://surfer-qian.top/posts/windows-context-menu-file-properties/</link>
+  <guid>https://surfer-qian.top/posts/windows-context-menu-file-properties/</guid>
+  <pubDate>Sun, 25 Sep 2022 05:14:04 GMT</pubDate>
+  <description><![CDATA[右键菜单快捷切换文件只读/隐藏/系统属性，基于 attrib 命令，支持批量操作。]]></description>
+</item>
+<item>
+  <title><![CDATA[Beyond《Best Collection》SACD分享]]></title>
+  <link>https://surfer-qian.top/posts/beyond-best-collection-sacd/</link>
+  <guid>https://surfer-qian.top/posts/beyond-best-collection-sacd/</guid>
+  <pubDate>Sat, 17 Sep 2022 05:05:59 GMT</pubDate>
+  <description><![CDATA[Beyond《Best Collection》SACD 版（DSD64/DSF），收录 16 首经典粤语曲目与网盘下载。]]></description>
+</item>
+<item>
+  <title><![CDATA[修复"无法更新Snap Store"]]></title>
+  <link>https://surfer-qian.top/posts/fix-snap-store-update/</link>
+  <guid>https://surfer-qian.top/posts/fix-snap-store-update/</guid>
+  <pubDate>Fri, 09 Sep 2022 11:24:28 GMT</pubDate>
+  <description><![CDATA[Snap Store 更新报错「已在运行」：killall snap-store 后执行 snap refresh 即可修复。]]></description>
+</item>
+<item>
+  <title><![CDATA[在Ubuntu 22.04中安装非snap版Firefox]]></title>
+  <link>https://surfer-qian.top/posts/ubuntu-2204-firefox-non-snap/</link>
+  <guid>https://surfer-qian.top/posts/ubuntu-2204-firefox-non-snap/</guid>
+  <pubDate>Fri, 09 Sep 2022 07:10:32 GMT</pubDate>
+  <description><![CDATA[Ubuntu 22.04 卸载 Snap 版 Firefox：Mozilla PPA 或官方包安装 deb 版。]]></description>
+</item>
+<item>
+  <title><![CDATA[为 Hexo 设置阅读全文功能]]></title>
+  <link>https://surfer-qian.top/posts/hexo-read-more/</link>
+  <guid>https://surfer-qian.top/posts/hexo-read-more/</guid>
+  <pubDate>Sun, 06 Feb 2022 07:09:22 GMT</pubDate>
+  <description><![CDATA[Hexo 文章截断的三种方式：<!--more--> 手动截断、front-matter 描述与自动摘要。]]></description>
+</item>
+<item>
+  <title><![CDATA[为 Github 博客添加自定义域名]]></title>
+  <link>https://surfer-qian.top/posts/github-pages-custom-domain/</link>
+  <guid>https://surfer-qian.top/posts/github-pages-custom-domain/</guid>
+  <pubDate>Sat, 05 Feb 2022 08:20:13 GMT</pubDate>
+  <description><![CDATA[GitHub Pages 绑定自定义域名：NameSilo 购买、A/CNAME 解析、CNAME 文件配置全流程。]]></description>
+</item>
+<item>
+  <title><![CDATA[用Hexo搭建Github Pages博客]]></title>
+  <link>https://surfer-qian.top/posts/hexo-github-pages-blog/</link>
+  <guid>https://surfer-qian.top/posts/hexo-github-pages-blog/</guid>
+  <pubDate>Sat, 05 Feb 2022 06:50:00 GMT</pubDate>
+  <description><![CDATA[Hexo + Next 主题搭建 GitHub Pages 博客全教程：环境配置、主题安装到部署发布。]]></description>
+</item>
+</channel>
+</rss>
