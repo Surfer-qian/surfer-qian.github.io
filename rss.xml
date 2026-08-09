@@ -6,6 +6,13 @@
   <description>音乐与技术的个人博客</description>
   <language>zh-CN</language>
 <item>
+  <title><![CDATA[修复 Hermes Hindsight 记忆服务在 Windows 的弹窗问题]]></title>
+  <link>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</link>
+  <guid>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</guid>
+  <pubDate>Sun, 09 Aug 2026 14:00:00 GMT</pubDate>
+  <description><![CDATA[修复 Hermes Hindsight 记忆服务在 Windows 的弹窗问题，换用真 pythonw 根治。]]></description>
+</item>
+<item>
   <title><![CDATA[《安和桥北》 (FLAC)专辑分享]]></title>
   <link>https://surfer-qian.top/posts/anhe-qiaobei-flac/</link>
   <guid>https://surfer-qian.top/posts/anhe-qiaobei-flac/</guid>
