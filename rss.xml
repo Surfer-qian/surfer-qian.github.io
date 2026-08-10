@@ -6,6 +6,13 @@
   <description>音乐与技术的个人博客</description>
   <language>zh-CN</language>
 <item>
+  <title><![CDATA[中文 Windows 下 Python 子进程报 UnicodeDecodeError 的修复]]></title>
+  <link>https://surfer-qian.top/posts/windows-gbk-unicode-decode-error-fix/</link>
+  <guid>https://surfer-qian.top/posts/windows-gbk-unicode-decode-error-fix/</guid>
+  <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
+  <description><![CDATA[把中文 Windows 的系统区域设置切成 UTF-8，根治 Python 子进程的 GBK 解码报错。]]></description>
+</item>
+<item>
   <title><![CDATA[修复 Hermes Hindsight 记忆服务在 Windows 的弹窗问题]]></title>
   <link>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</link>
   <guid>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</guid>
