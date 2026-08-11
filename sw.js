@@ -3,7 +3,7 @@
 //       静态资源 = cache-first（文件名带 hash 天然免疫过期）。
 // 版本号变更 = 全量换新缓存。
 // 每次改 JS/CSS/组件后必须 bump（否则 SW 缓存旧资源，用户看到旧版/旧交互）。
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `cache-${VERSION}`;
 
 self.addEventListener('install', () => {
@@ -27,6 +27,8 @@ self.addEventListener('fetch', (event) => {
   // dev 资源不缓存：/src/、/@vite/ 等模块路径无 hash，cache-first 会永远返回旧代码
   // （曾导致 View Transitions 修复不生效、主题导航后变暗的假象）
   if (url.pathname.startsWith('/src/') || url.pathname.includes('/@vite/') || url.pathname.includes('/@fs/') || url.pathname.includes('/@id/')) return;
+  // 构建期生成但文件名不带 hash 的端点：新文章发布后内容会变，cache-first 会让老访客永远拿旧索引
+  if (url.pathname === '/search-index.json' || url.pathname === '/rss.xml') return;
 
   // 页面导航：生产 SWR（先回缓存离线可读，后台更新）；dev network-first（内容常变，缓存仅离线兜底）
   if (request.mode === 'navigate') {
