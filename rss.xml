@@ -10,84 +10,198 @@
   <link>https://surfer-qian.top/posts/windows-gbk-unicode-decode-error-fix/</link>
   <guid>https://surfer-qian.top/posts/windows-gbk-unicode-decode-error-fix/</guid>
   <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
-  <description><![CDATA[把中文 Windows 的系统区域设置切成 UTF-8，根治 Python 子进程的 GBK 解码报错。]]></description>
+  <description><![CDATA[<p>最近排查 Hermes Agent 一个反复出现的报错。日志里每隔一段时间就有一条：</p>
+<pre><code>UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbb in position 2: invalid start byte
+</code></pre>
+<p>报错位置在 subprocess 的 reader 线程，也就是父进程读取子进程输出的时候。</p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[修复 Hermes Hindsight 记忆服务在 Windows 的弹窗问题]]></title>
   <link>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</link>
   <guid>https://surfer-qian.top/posts/hermes-hindsight-popup-fix/</guid>
   <pubDate>Sun, 09 Aug 2026 14:00:00 GMT</pubDate>
-  <description><![CDATA[修复 Hermes Hindsight 记忆服务在 Windows 的弹窗问题，换用真 pythonw 根治。]]></description>
+  <description><![CDATA[<p>给 Hermes Agent 接上了 Hindsight 本地记忆（local_embedded 模式，LLM 用本地 Ollama 的 qwen3.5），功能正常，只有一个毛病：每次记忆 daemon 启动或重启都会弹出一个 Windows Terminal 窗口，标题是 <code>venv\Scripts\pythonw.exe</code> 的路径。daemon 空闲 5 分钟自动停止，下次对话又自动拉起，窗口关掉之后过一会儿又冒出来，如此反复。</p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[《安和桥北》 (FLAC)专辑分享]]></title>
   <link>https://surfer-qian.top/posts/anhe-qiaobei-flac/</link>
   <guid>https://surfer-qian.top/posts/anhe-qiaobei-flac/</guid>
   <pubDate>Thu, 12 Jun 2025 08:10:00 GMT</pubDate>
-  <description><![CDATA[宋冬野《安和桥北》FLAC 高解析版（192kHz/24bit），附完整曲目与网盘下载。]]></description>
+  <description><![CDATA[<h1 id="专辑信息">专辑信息</h1>
+<p>专辑名称：安和桥北 <br>
+专辑艺人：宋冬野 <br>
+发行公司：摩登天空 <br>
+发行地区：大陆 <br>
+发行时间：2013 <br>
+专辑语言：国语 <br>
+资源格式：Hi-Res PCM <br>
+文件格式：FLAC <br>
+采样率：192 kHz / 24-bit <br>
+比特率：5424kbps <br>
+声道：2 <br>
+编码：PCM <br>
+Discogs 代码：<a href="https://www.discogs.com/release/14216521-%E5%AE%8B%E5%86%AC%E9%87%8E-%E5%AE%89%E5%92%8C%E6%A1%A5%E5%8C%97">r14216521</a> <br></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[《安和桥北》(DSD Vinyl Rip)专辑分享]]></title>
   <link>https://surfer-qian.top/posts/anhe-qiaobei-dsd/</link>
   <guid>https://surfer-qian.top/posts/anhe-qiaobei-dsd/</guid>
   <pubDate>Thu, 12 Jun 2025 07:26:00 GMT</pubDate>
-  <description><![CDATA[宋冬野《安和桥北》DSD 黑胶转录版（DSF/DSD128），附完整曲目与网盘下载。]]></description>
+  <description><![CDATA[<h1 id="专辑信息">专辑信息</h1>
+<p>专辑名称：安和桥北 <br>
+专辑艺人：宋冬野 <br>
+发行公司：摩登天空 <br>
+发行地区：大陆 <br>
+发行时间：2017 <br>
+专辑语言：国语 <br>
+资源格式：DSD Vinyl Rip <br>
+文件格式：DSF <br>
+采样率：DSD 5.6448 MHz / 1-bit <br>
+比特率：11290kbps <br>
+声道：2 <br>
+编码：DSD128 <br>
+Discogs 代码：<a href="https://www.discogs.com/release/26875997-%E5%AE%8B%E5%86%AC%E9%87%8E-%E5%AE%89%E5%92%8C%E6%A1%A5%E5%8C%97">r26875997</a> <br></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[Ryuichi Sakamoto - 《Music For Film》 专辑分享]]></title>
   <link>https://surfer-qian.top/posts/ryuichi-sakamoto-music-for-film/</link>
   <guid>https://surfer-qian.top/posts/ryuichi-sakamoto-music-for-film/</guid>
   <pubDate>Mon, 02 Jun 2025 10:17:00 GMT</pubDate>
-  <description><![CDATA[坂本龙一电影配乐精选《Music For Film》SACD 版，收录 13 首经典配乐与网盘下载。]]></description>
+  <description><![CDATA[<h1 id="专辑信息">专辑信息</h1>
+<p>专辑名称：Music For Film <br>
+专辑艺人：Ryuichi Sakamoto, Brussels Philharmonic Conducted By Dirk Brossé <br>
+发行公司：Evosound <br>
+发行地区：香港 <br>
+发行时间：2022 <br>
+专辑语言：英语 <br>
+资源格式：SONY PS3-RIP-SACD/ISO <br>
+文件格式：DSF <br>
+采样率：DSD 2.8224 MHz / 1-bit <br>
+比特率：5645kbps <br>
+声道：2 <br>
+编码：DSD64 <br>
+Discogs 代码：<a href="https://www.discogs.com/release/24807455-Ryuichi-Sakamoto-Brussels-Philharmonic-Conducted-By-Dirk-Bross%C3%A9-Music-For-Film">r24807455</a> <br></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[Windows 右键菜单快速验证文件哈希]]></title>
   <link>https://surfer-qian.top/posts/windows-context-menu-file-hash/</link>
   <guid>https://surfer-qian.top/posts/windows-context-menu-file-hash/</guid>
   <pubDate>Sat, 10 May 2025 14:46:00 GMT</pubDate>
-  <description><![CDATA[右键菜单一键验证文件哈希，支持 SHA1/SHA256/MD5 等 8 种算法，注册表一键安装。]]></description>
+  <description><![CDATA[<h2 id="功能说明">功能说明</h2>
+<p>在Windows资源管理器中通过右键菜单直接调用PowerShell的<code>Get-FileHash</code>命令，支持8种哈希算法验证：</p>
+<ul>
+<li>SHA1</li>
+<li>SHA256</li>
+<li>SHA384</li>
+<li>SHA512</li>
+<li>MACTripleDES</li>
+<li>MD5</li>
+<li>RIPEMD160</li>
+<li>全选验证模式（同时显示所有算法结果）</li>
+</ul>
+<p><img src="https://file.surfer-qian.top/img/explorer_ZJOb14jTsX.webp" alt="功能演示"></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[Beyond《Best Collection》SACD分享]]></title>
   <link>https://surfer-qian.top/posts/beyond-best-collection-sacd/</link>
   <guid>https://surfer-qian.top/posts/beyond-best-collection-sacd/</guid>
   <pubDate>Sat, 17 Sep 2022 05:05:59 GMT</pubDate>
-  <description><![CDATA[Beyond《Best Collection》SACD 版（DSD64/DSF），收录 16 首经典粤语曲目与网盘下载。]]></description>
+  <description><![CDATA[<h1 id="专辑信息">专辑信息</h1>
+<p>专辑名称：Best Collection SACD <br>
+专辑艺人：Beyond <br>
+发行公司：华纳唱片 <br>
+发行地区：香港 <br>
+发行时间：2002 <br>
+专辑语言：粤语 <br>
+资源格式：SONY PS3-RIP-SACD/ISO <br>
+文件格式：DSF <br>
+采样率：DSD 2.8224 MHz / 1-bit <br>
+比特率：5645kbps <br>
+声道：2 <br>
+编码：DSD64 <br>
+Discogs 代码：<a href="https://www.discogs.com/release/10063145-Beyond-SACD-Best-Collection">r10063145</a></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[修复"无法更新Snap Store"]]></title>
   <link>https://surfer-qian.top/posts/fix-snap-store-update/</link>
   <guid>https://surfer-qian.top/posts/fix-snap-store-update/</guid>
   <pubDate>Fri, 09 Sep 2022 11:24:28 GMT</pubDate>
-  <description><![CDATA[Snap Store 更新报错「已在运行」：killall snap-store 后执行 snap refresh 即可修复。]]></description>
+  <description><![CDATA[<p>最近总是弹出更新提示，如图所示<img src="https://file.surfer-qian.top/img/2022-09-09_19-26-10.webp" alt=""></p>
+<p>然后转到 Ubuntu Software 软件商店更新出错，如图所示<img src="https://file.surfer-qian.top/img/2022-09-09_19-12-47.webp" alt=""></p>
+<blockquote>
+<p>意思是 snap-store 已经在运行，无法更新</p>
+</blockquote>
+]]></description>
 </item>
 <item>
   <title><![CDATA[在Ubuntu 22.04中安装非snap版Firefox]]></title>
   <link>https://surfer-qian.top/posts/ubuntu-2204-firefox-non-snap/</link>
   <guid>https://surfer-qian.top/posts/ubuntu-2204-firefox-non-snap/</guid>
   <pubDate>Fri, 09 Sep 2022 07:10:32 GMT</pubDate>
-  <description><![CDATA[Ubuntu 22.04 卸载 Snap 版 Firefox：Mozilla PPA 或官方包安装 deb 版。]]></description>
+  <description><![CDATA[<h1 id="什么是-snap">什么是 Snap</h1>
+<p>Snap 是一种软件包管理方式，它类似于一个拥有应用程序所有的文件和库的容器，各个应用程序之间完全独立，<a href="https://cn.ubuntu.com/blog/what-is-snap-application">ubuntu.cn</a> 中是这么介绍的：<code>每个snap默认都被严格限制（confined），即限制系统权限和资源访问。</code></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[为 Hexo 设置阅读全文功能]]></title>
   <link>https://surfer-qian.top/posts/hexo-read-more/</link>
   <guid>https://surfer-qian.top/posts/hexo-read-more/</guid>
   <pubDate>Sun, 06 Feb 2022 07:09:22 GMT</pubDate>
-  <description><![CDATA[Hexo 文章截断的三种方式：<!--more--> 手动截断、front-matter 描述与自动摘要。]]></description>
+  <description><![CDATA[<h1 id="前言">前言</h1>
+<p>为 Hexo 文章设置一个链接 “阅读全文” 来进入文章的详情页，同时只显示前言部分——就是你现在看到的样子。 <br>
+点击阅读全文看看是如何实现的</p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[为 Github 博客添加自定义域名]]></title>
   <link>https://surfer-qian.top/posts/github-pages-custom-domain/</link>
   <guid>https://surfer-qian.top/posts/github-pages-custom-domain/</guid>
   <pubDate>Sat, 05 Feb 2022 08:20:13 GMT</pubDate>
-  <description><![CDATA[GitHub Pages 绑定自定义域名：NameSilo 购买、A/CNAME 解析、CNAME 文件配置全流程。]]></description>
+  <description><![CDATA[<h2 id="域名购买">域名购买</h2>
+<p>在开始配置之前，我们需要先购买一个域名。这里推荐使用 <a href="https://www.namesilo.com/">NameSilo</a> 作为域名注册商，原因如下：</p>
+<ul>
+<li>ICANN 认证的可靠域名注册商</li>
+<li>价格实惠，经常有优惠活动</li>
+<li>支持多种支付方式（支付宝、PayPal、信用卡等）</li>
+<li>免费的隐私保护服务</li>
+<li>操作界面简单直观</li>
+</ul>
+<h3 id="购买优惠">购买优惠</h3>
+<blockquote>
+<p><strong>优惠码</strong>: 使用 <code>toptop1</code> 可以立即优惠 $1</p>
+</blockquote>
+<p><img src="https://file.surfer-qian.top/img/Hmbp9K.webp" alt="NameSilo 优惠码使用示例"></p>
+]]></description>
 </item>
 <item>
   <title><![CDATA[用Hexo搭建Github Pages博客]]></title>
   <link>https://surfer-qian.top/posts/hexo-github-pages-blog/</link>
   <guid>https://surfer-qian.top/posts/hexo-github-pages-blog/</guid>
   <pubDate>Sat, 05 Feb 2022 06:50:00 GMT</pubDate>
-  <description><![CDATA[Hexo + Next 主题搭建 GitHub Pages 博客全教程：环境配置、主题安装到部署发布。]]></description>
+  <description><![CDATA[<p>此博客位于 Github Pages ，利用 <a href="https://hexo.io/">Hexo</a> 博客框架，采用 <a href="https://github.com/next-theme/hexo-theme-next">Next</a> 主题，以下一切步骤皆建立在此基础上</p>
+<hr>
+<h1 id="准备">准备：</h1>
+<ol>
+<li>环境搭建： <a href="https://git-scm.com/downloads">Git</a> 和 <a href="https://nodejs.org/">Node.js</a></li>
+<li>一个 <a href="https://github.com/">GitHub</a> 账户</li>
+<li><a href="#p1">连接 Github</a></li>
+<li><a href="#p2">创建 Github Pages 仓库</a></li>
+<li><a href="#p3">安装 Hexo 博客框架</a></li>
+<li><a href="#p4">网站配置</a></li>
+<li><a href="#p5">主题配置</a></li>
+<li><a href="#p6">新建文章</a></li>
+<li><a href="#p7">本地预览</a></li>
+<li><a href="#p8">部署 Hexo 到 Github Pages</a></li>
+</ol>
+<hr>
+]]></description>
 </item>
 </channel>
 </rss>
